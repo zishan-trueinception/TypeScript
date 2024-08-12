@@ -1,5 +1,5 @@
-import { add , add2 ,info} from "./zishanTsProject";
-console.log( add(1,2));
-console.log( add2(1,5));
+import { addition, substract, info} from "./zishanTsProject";
+console.log( addition(1,2));
+console.log( substract(1,5));
 console.log(info);
 

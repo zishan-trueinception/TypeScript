@@ -1,22 +1,24 @@
 
 // export
 export{
-    add,
-    add2,
+    addition,
+    substract,
     info
 }
 
 
 
-
-function add(a:number, b:number):number{
+// addition function 
+function addition(a:number, b:number):number{
     return a + b
 }
 
-function add2(a:number, b:number):number{
+// substraction function
+function substract(a:number, b:number):number{
     return a + b
 }
 
+// aliases for parameters
 type Person = {
     name:string;
     age?:number;

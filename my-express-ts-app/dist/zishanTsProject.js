@@ -1,12 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.info = void 0;
-exports.add = add;
-exports.add2 = add2;
-function add(a, b) {
+exports.addition = addition;
+exports.substract = substract;
+// addition function 
+function addition(a, b) {
     return a + b;
 }
-function add2(a, b) {
+// substraction function
+function substract(a, b) {
     return a + b;
 }
 const info = {
